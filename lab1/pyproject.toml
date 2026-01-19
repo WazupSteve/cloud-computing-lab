@@ -1,0 +1,14 @@
+[project]
+name = "cloud-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "supabase>=2.27.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "lab2/PES1UG23AM042",
+]
