@@ -1,0 +1,3 @@
+PES1UG23AM042 
+answer : docker rmi -f $(docker images -q)
+
